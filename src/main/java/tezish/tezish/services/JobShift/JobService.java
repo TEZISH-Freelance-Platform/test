@@ -357,7 +357,7 @@ public class JobService {
         return cal1.get(Calendar.YEAR) != cal2.get(Calendar.YEAR) ||
                 cal1.get(Calendar.MONTH) != cal2.get(Calendar.MONTH) ||
                 cal1.get(Calendar.DAY_OF_MONTH) != cal2.get(Calendar.DAY_OF_MONTH);
-    }//todo look
+    }
 
     public Location createLocation(LocationRequest locationRequest) {
         Company company = companyRepository.findById(locationRequest.getCompanyId())
